@@ -57,3 +57,8 @@ Steps:
 4. Clone this repo onto your Pi
 5. Run create-story.py in Terminal. Download dependencies if necessary
 6. Make sure that the voltages read correctly. Adjust the voltages in create-story.py if necessary
+
+## Customizing the Story
+The framework for creating the murder mystery story is laid out in the create-story.py script. The introduction asks the user for their name (used later) and some trivial input (used for interactivity). The instruction phase has no interaction. You can customize the time periods for these phases by adjusting the script.
+
+To edit the body of the story, you will need to customize the text in the 'paragraphs' dictionary. Make sure the key for each entry matches the key names identified in landtags and landvals, seatags and seavals. Feel free to change the tag names to match the contents of your murdery mystery map. This script uses land and sea nomenclature because of the initial map layout. The clues in the story could help a player find the right set of blocks to put on the map, or they could create an endless story. Either way, how the story goes is up to you.
